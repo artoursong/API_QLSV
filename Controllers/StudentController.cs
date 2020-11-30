@@ -16,7 +16,6 @@ namespace API.Controllers
         public StudentController() {
             QLSV = new QLSV();
         }
-        [Route("GetStudent")]
         [HttpGet]
         public IEnumerable<Student> Get()
         {
